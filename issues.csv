@@ -1,0 +1,57 @@
+requirements; 59; open; OVI Abteilung ergänzen; https://github.com/TIXI24/requirements/issues/59; disposition, dringend, ENHANCEMENT, fahrer, fahrgast-auftrag, P4, wichtig
+requirements; 57; open; Sammelfahrt sistieren (R104); https://github.com/TIXI24/requirements/issues/57; disposition, dringend, P2, REQUIREMENT, wichtig
+requirements; 56; open; REST API for web application supporting iPhone/iPad; https://github.com/TIXI24/requirements/issues/56; dringend, fahrer, fahrer-einsatz, fahrgast, fahrgast-auftrag, FEATURE, TIXI-LINTH, wichtig
+requirements; 55; open; Ueberwachungs Strategie für Ressourcen (Dienste); https://github.com/TIXI24/requirements/issues/55; FEATURE, nicht dringend, support, verwaltung, wichtig
+requirements; 54; open; Rückmeldungs Strategie (Notification Policy); https://github.com/TIXI24/requirements/issues/54; fahrer, fahrgast, FEATURE, nicht dringend, verwaltung, wichtig
+requirements; 48; open; OVI Fahrten-Kontrolle; https://github.com/TIXI24/requirements/issues/48; nicht dringend, ovi, unwichtig
+requirements; 46; open; Fahrgast: Neuer Dauerauftrag anlegen, Default Wochentag; https://github.com/TIXI24/requirements/issues/46; fahrgast-auftrag, nicht dringend, wichtig
+requirements; 45; open; Fahrt erfassen, duplizieren von Fahrten bei Mehrfach Buchung; https://github.com/TIXI24/requirements/issues/45; fahrgast-auftrag, nicht dringend, REQUIREMENT, wichtig
+requirements; 43; open; OVI Fahrten-Liste; https://github.com/TIXI24/requirements/issues/43; bereitstellen, dringend, FEATURE, ovi, P5, wichtig
+requirements; 41; open; Fahrgast-Restriktion; https://github.com/TIXI24/requirements/issues/41; disposition, fahrer, fahrgast, FEATURE, nicht dringend, wichtig
+requirements; 40; open; Tagesplan, Fahrzeug title, Fahrzeug Telefonnummer anzeigen; https://github.com/TIXI24/requirements/issues/40; disposition, ENHANCEMENT, nicht dringend, unwichtig
+requirements; 38; open; Tagesplan, Manuell-Modus & Automatik-Modus fehlt; https://github.com/TIXI24/requirements/issues/38; disposition, dringend, P1, REQUIREMENT, wichtig
+requirements; 37; open; Auftrag (editieren) vervollständigen; https://github.com/TIXI24/requirements/issues/37; dringend, fahrgast-auftrag, P2, REQUIREMENT, wichtig
+requirements; 36; open; Fernfahrten als Dauerauftrag möglich; https://github.com/TIXI24/requirements/issues/36; fahrgast-auftrag, nicht dringend, REQUIREMENT, wichtig
+requirements; 34; open; Email Benachrichtigung bei neuen Benutzer; https://github.com/TIXI24/requirements/issues/34; ENHANCEMENT, nicht dringend, support, verwaltung, wichtig
+requirements; 33; open; ShiftType Objekte mit mehrdeutige Namen möglich; https://github.com/TIXI24/requirements/issues/33; disposition, ENHANCEMENT, nicht dringend, unwichtig
+requirements; 32; open; Monatsplan (editeren), neue Sortierfunktion; https://github.com/TIXI24/requirements/issues/32; disposition, ENHANCEMENT, nicht dringend, unwichtig
+requirements; 30; open; Sammelfahrt, Route anzeigen auf Karte; https://github.com/TIXI24/requirements/issues/30; disposition, ENHANCEMENT, nicht dringend, P5, wichtig
+requirements; 29; open; Daueraufträge nach Wochentage; https://github.com/TIXI24/requirements/issues/29; bereitstellen, dringend, fahrgast-auftrag, FEATURE, P4, wichtig
+requirements; 28; open; Wöchentliche Barzahlungsliste; https://github.com/TIXI24/requirements/issues/28; bereitstellen, dringend, fahrgast-auftrag, P4, REQUIREMENT, wichtig
+requirements; 27; open; Statistik Fahrten Monat; https://github.com/TIXI24/requirements/issues/27; fahrzeug, nicht dringend, REQUIREMENT, wichtig
+requirements; 26; open; Freiwillige Fahrdienst in Stunden; https://github.com/TIXI24/requirements/issues/26; bereitstellen, fahrer-einsatz, nicht dringend, REQUIREMENT, unwichtig
+requirements; 25; open; Fahrgast Hitliste; https://github.com/TIXI24/requirements/issues/25; bereitstellen, fahrgast, nicht dringend, REQUIREMENT, unwichtig
+requirements; 24; open; Fahrer Hitliste; https://github.com/TIXI24/requirements/issues/24; bereitstellen, fahrer, nicht dringend, REQUIREMENT, unwichtig
+requirements; 23; open; Fahrer-Einsätze History; https://github.com/TIXI24/requirements/issues/23; bereitstellen, fahrer, nicht dringend, REQUIREMENT, unwichtig
+requirements; 22; open; Data Mart "Fahrten"/ Fahrtenliste; https://github.com/TIXI24/requirements/issues/22; bereitstellen, dringend, fahrer-einsatz, fahrgast-auftrag, fahrzeug, FEATURE, ovi, P4, wichtig
+requirements; 21; open; Fahrgäste nach Gemeinden; https://github.com/TIXI24/requirements/issues/21; fahrgast, nicht dringend, REQUIREMENT, unwichtig
+requirements; 20; open; Data Mart "Fahrgäste"/ Fahrgastliste; https://github.com/TIXI24/requirements/issues/20; bereitstellen, fahrgast, FEATURE, nicht dringend, unwichtig
+requirements; 19; open; Dienstjahre Fahrer; https://github.com/TIXI24/requirements/issues/19; bereitstellen, fahrer, nicht dringend, REQUIREMENT, unwichtig
+requirements; 18; open; Geburtstage Fahrer; https://github.com/TIXI24/requirements/issues/18; bereitstellen, fahrer, nicht dringend, REQUIREMENT, unwichtig
+sfitixi; 224; open; Allocate shared ride to vehicle automatically; https://github.com/TIXI24/sfitixi/issues/224; gap, important, P5, urgent
+sfitixi; 223; open; Mail code page error; https://github.com/TIXI24/sfitixi/issues/223; bug, non-urgent, unimportant
+sfitixi; 222; open; Daily view drag and drop error; https://github.com/TIXI24/sfitixi/issues/222; bug, important, P2, urgent
+sfitixi; 221; open; Find custodian drop-down; https://github.com/TIXI24/sfitixi/issues/221; gap, important, P4, urgent
+sfitixi; 220; open; Fix custodian mandatory fields; https://github.com/TIXI24/sfitixi/issues/220; gap, important, P4, urgent
+sfitixi; 218; open; Redundant views; https://github.com/TIXI24/sfitixi/issues/218; important, non-urgent, risk
+sfitixi; 212; open; Protect freezing shift, driving pools & missions; https://github.com/TIXI24/sfitixi/issues/212; important, risk, urgent
+sfitixi; 207; open; OVI Comment for Driving Config is missing; https://github.com/TIXI24/sfitixi/issues/207; bug, important, P4, urgent
+sfitixi; 206; open; Postal code not persisted properly; https://github.com/TIXI24/sfitixi/issues/206; bug, non-urgent, P4, unimportant
+sfitixi; 205; open; Hard to fix "wrong vehicle allocated to driver"; https://github.com/TIXI24/sfitixi/issues/205; gap, important, P5, urgent
+sfitixi; 201; open; Extra Minutes not added to ride time; https://github.com/TIXI24/sfitixi/issues/201; bug, important, non-urgent
+sfitixi; 200; open; Long-distance doesn't display red box; https://github.com/TIXI24/sfitixi/issues/200; bug, important, P3, urgent
+sfitixi; 199; open; Long distance ride, wrong error message for repeated order; https://github.com/TIXI24/sfitixi/issues/199; bug, important, urgent
+sfitixi; 198; open; Long distance rides, not tested for overlapping rides with same passenger; https://github.com/TIXI24/sfitixi/issues/198; bug, important, non-urgent, P5
+sfitixi; 193; open; Shared ride not recalculated, if participant(s) cancels order(s).; https://github.com/TIXI24/sfitixi/issues/193; gap, important, P2, risk, urgent
+sfitixi; 191; open; Restore database function doesn't support MYSQLDUMP files; https://github.com/TIXI24/sfitixi/issues/191; bug, non-urgent, P4, unimportant
+sfitixi; 188; open; Repeated driving order id not displayed in GUI; https://github.com/TIXI24/sfitixi/issues/188; gap, non-urgent, unimportant
+sfitixi; 186; open; Production server WSOD; https://github.com/TIXI24/sfitixi/issues/186; bug, important, non-urgent
+sfitixi; 177; open; Volatile Zoom in daily view; https://github.com/TIXI24/sfitixi/issues/177; bug, important, non-urgent, P4
+sfitixi; 169; open; Shift property "amountOfDrivers" is redundant; https://github.com/TIXI24/sfitixi/issues/169; gap, non-urgent, unimportant
+sfitixi; 149; open; Optimizing: resource restrictions not respected; https://github.com/TIXI24/sfitixi/issues/149; bug, important, urgent
+sfitixi; 140; open; Change management: deleting a passenger should cascade to dependant children.; https://github.com/TIXI24/sfitixi/issues/140; gap, important, P5, urgent
+sfitixi; 132; open; TWIG release 2.0 expected soon (DEPRECIATED items); https://github.com/TIXI24/sfitixi/issues/132; important, non-urgent, risk
+sfitixi; 124; open; Concept - Routes: should not be unique for start+target; https://github.com/TIXI24/sfitixi/issues/124; bug, gap, important, non-urgent
+sfitixi; 121; open; Address inflation while building a new route.; https://github.com/TIXI24/sfitixi/issues/121; bug, gap, important, non-urgent
+sfitixi; 106; open; Cannot change zone name; https://github.com/TIXI24/sfitixi/issues/106; bug, non-urgent, unimportant
+sfitixi; 78; open; Fahrzeugdepot, add postalcode to list; https://github.com/TIXI24/sfitixi/issues/78; bug, non-urgent, unimportant
