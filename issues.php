@@ -5,13 +5,17 @@ echo "Extract GitHub Issues\n";
 /*
  * JSON output is copied to a file due to usage restrictions at GitHub
  * Use the following command on OSX (terminal) to create the files
- * curl -o ~/Projects/GitHubIssues/sfitixi.json https://api.github.com/repos/TIXI24/sfitixi/issues?state=open&per_page=1000
- * curl -o ~/Projects/GitHubIssues/requirements.json https://api.github.com/repos/TIXI24/requirements/issues?state=open&per_page=1000
+ * curl -o ~/Projects/GitHubIssues/sfitixi.json https://api.github.com/repos/TIXI24/sfitixi/issues?state=open
+ * curl -o ~/Projects/GitHubIssues/requirements.json https://api.github.com/repos/TIXI24/requirements/issues?state=open
  *
  * ISSUES with this code:
  * 1. /issues only returns 30 items per page
  * 2. the second page is the same as the first page
  * 3. cummulating parameters ?par1=x&par2=y is not possible (second one dropped)
+ *
+ * What works is:
+ * curl -o ~/Projects/GitHubIssues/test.json https://api.github.com/repos/TIXI24/requirements/issues?labels=P1
+ * curl -o ~/Projects/GitHubIssues/test.json https://api.github.com/repos/TIXI24/requirements/issues/59
  */
 $repositories = array();
 $repositories[] = 'requirements';
