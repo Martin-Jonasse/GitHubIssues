@@ -2,51 +2,59 @@
 // issues
 echo "Extract GitHub Issues\n";
 
-/*
- * JSON output is copied to a file due to usage restrictions at GitHub
- * Use the following command on OSX (terminal) to create the files
- * curl -o ~/Projects/GitHubIssues/sfitixi.json https://api.github.com/repos/TIXI24/sfitixi/issues?state=open
- * curl -o ~/Projects/GitHubIssues/requirements.json https://api.github.com/repos/TIXI24/requirements/issues?state=open
- *
- * ISSUES with this code:
- * 1. /issues only returns 30 items per page
- * 2. the second page is the same as the first page
- * 3. cummulating parameters ?par1=x&par2=y is not possible (second one dropped)
- *
- * What works is:
- * curl -o ~/Projects/GitHubIssues/test.json https://api.github.com/repos/TIXI24/requirements/issues?labels=P1
- * curl -o ~/Projects/GitHubIssues/test.json https://api.github.com/repos/TIXI24/requirements/issues/59
- */
+function getJsonFor($url){
+    //Initiate curl
+    $ch = curl_init();
+    //Set the url
+    curl_setopt($ch, CURLOPT_URL,$url);
+    //Set the User Agent as username
+    curl_setopt($ch, CURLOPT_USERAGENT, "TIXI24");
+    //Accept the response as json
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array( 'Accept: application/json'));
+    //Will return the response, if false it print the response
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    // Execute
+    $result=curl_exec($ch);
+    // Closing
+    curl_close($ch);
+
+    //Decode the json in associative array
+    return json_decode($result);
+}
+
 $repositories = array();
 $repositories[] = 'requirements';
 $repositories[] = 'sfitixi';
 
-$counter = 0;
-foreach ($repositories as $repository){
-    $path = '/Users/mart/Projects/GitHubIssues/';
-    $filename = $path.$repository.'.json';
-    $handle = fopen($filename, 'r');
-    $size = filesize($filename);
-    $content = fread($handle, $size);
-    $issues = json_decode($content);
-    $comma = '; ';
+$url = "https://api.github.com/repos/TIXI24/";
 
-    foreach ($issues as $issue){
-        $lbl = "";
-        foreach ($issue->labels as $label){
-            $lbl .= ($lbl=="")? $label->name: ', '.$label->name;
+$counter = 0;
+$comma = '; ';
+foreach ($repositories as $repository){
+    $page = 1;
+    while (true) {
+        $issues = getJsonFor($url.$repository."/issues?page=".$page);
+        foreach ($issues as $issue){
+            $lbl = "";
+            foreach ($issue->labels as $label){
+                $lbl .= ($lbl=="")? $label->name: ', '.$label->name;
+            }
+            $csv =
+                $repository.$comma.
+                $issue->number.$comma.
+                $issue->state.$comma.
+                $issue->title.$comma.
+                $issue->html_url.$comma.
+                $lbl."\n";
+            echo $csv;
+            $counter++;
         }
-        $csv =
-            $repository.$comma.
-            $issue->number.$comma.
-            $issue->state.$comma.
-            $issue->title.$comma.
-            $issue->html_url.$comma.
-            $lbl."\n";
-        echo $csv;
-        $counter++;
+        $page++;
+        if (count($issues)< 30){
+            break;
+        }
     }
-    fclose($handle);
 }
 echo "Finished, ".$counter." issues.\n";
+
 ?>

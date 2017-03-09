@@ -28,6 +28,17 @@ requirements; 21; open; Fahrgäste nach Gemeinden; https://github.com/TIXI24/req
 requirements; 20; open; Data Mart "Fahrgäste"/ Fahrgastliste; https://github.com/TIXI24/requirements/issues/20; bereitstellen, fahrgast, FEATURE, nicht dringend, unwichtig
 requirements; 19; open; Dienstjahre Fahrer; https://github.com/TIXI24/requirements/issues/19; bereitstellen, fahrer, nicht dringend, REQUIREMENT, unwichtig
 requirements; 18; open; Geburtstage Fahrer; https://github.com/TIXI24/requirements/issues/18; bereitstellen, fahrer, nicht dringend, REQUIREMENT, unwichtig
+requirements; 17; open; Data Mart "Fahrer"/ Fahrerliste; https://github.com/TIXI24/requirements/issues/17; bereitstellen, dringend, fahrer, FEATURE, P4, wichtig
+requirements; 13; open; Andere Reihenfolge von Fahrer Eigenschaften; https://github.com/TIXI24/requirements/issues/13; ENHANCEMENT, fahrer, nicht dringend, unwichtig
+requirements; 12; open; Fernfahrten-Liste; https://github.com/TIXI24/requirements/issues/12; bereitstellen, dringend, P4, REQUIREMENT, wichtig
+requirements; 11; open; F-150: Anruferkennung; https://github.com/TIXI24/requirements/issues/11; disposition, fahrgast, FEATURE, nicht dringend, wichtig
+requirements; 10; open; R-168: Verkehrsprognose; https://github.com/TIXI24/requirements/issues/10; disposition, nicht dringend, REQUIREMENT, unwichtig
+requirements; 9; open; R-143: Daten putzen; https://github.com/TIXI24/requirements/issues/9; nicht dringend, REQUIREMENT, support, wichtig
+requirements; 8; open; R-141: Logdateien; https://github.com/TIXI24/requirements/issues/8; nicht dringend, REQUIREMENT, verwaltung, wichtig
+requirements; 7; open; R-123: Fahrgast-Fahrten History; https://github.com/TIXI24/requirements/issues/7; bereitstellen, ENHANCEMENT, fahrgast, nicht dringend, wichtig
+requirements; 5; open; R-072: Monatsrapport, Einsatzpläne als PDF bereitstellen; https://github.com/TIXI24/requirements/issues/5; bereitstellen, dringend, fahrer-einsatz, P4, REQUIREMENT, wichtig
+requirements; 4; open; R-048: Automatisches senden von neue und geänderte Einsatzpläne; https://github.com/TIXI24/requirements/issues/4; fahrer-einsatz, nicht dringend, REQUIREMENT, wichtig
+requirements; 3; open; R-093: Favorite Fahrziele; https://github.com/TIXI24/requirements/issues/3; dringend, ENHANCEMENT, fahrgast-auftrag, P3, wichtig
 sfitixi; 224; open; Allocate shared ride to vehicle automatically; https://github.com/TIXI24/sfitixi/issues/224; gap, important, P5, urgent
 sfitixi; 223; open; Mail code page error; https://github.com/TIXI24/sfitixi/issues/223; bug, non-urgent, unimportant
 sfitixi; 222; open; Daily view drag and drop error; https://github.com/TIXI24/sfitixi/issues/222; bug, important, P2, urgent
